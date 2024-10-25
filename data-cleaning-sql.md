@@ -1,5 +1,8 @@
 # 2.4 DATA CLEANING AND MANIPULATION w/ SQL
 
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the brand_id key. I combined product_name with description into one description variable, resulting in a cleaned and aggregated dataset. However, to analyze product category frequencies, I needed to extract string-specific data from the description column. Therefore, I created two variables: style_id and sub_style_id, and extracted them from description using REGEXP_EXTRACT() and Common Table Expressions (CTE) for aggregation. The first variable represented broad apparel categories such as jackets, coats, tracks, vests, etc., while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See the SQL query below.
+
+
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
 (SELECT
