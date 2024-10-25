@@ -1,23 +1,28 @@
-# Outerwear-Report
+# 1.0 BERLIN MARKET ANALYSIS
 
-### 2.0 MARKET REPORT: Outerwear Trend Analysis
-![cover_page](assets/img/portfolio/capstone/cover_page_16x9.png)
-#### 2.1 ABOUT
+#### 1.1 ABOUT
 Google Data Analytics Capstone: Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in its collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
 
-#### 2.2 OUTLINE
-- 2.3 Data Gathering
-- 2.4 Data Cleaning and Manipulation w/ SQL
-- 2.5 Data Analysis
-- 2.6 Null Values
-- 2.7 Visualization
-- 2.8 Report Preview
+#### 1.2 DATA STRUCTURES
+I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables. <br></br>
+
+To learn more about the data cleaning process [click here](data-cleaning-sql.md)
+
+#### 1.3 KEY INDICATORS (DASHBOARD)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.
+<br></br>
+           • KPI 1 Description <br></br>
+           • KP2 2 Description <br></br>
+
+#### 1.4 MARKET SEGMENTATION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.<br></br>
+           • Insight 1 description <br></br>
+           • Insight 2 Description <br></br>
+
+#### 1.5 PRODUCT COMPARISION
 
 #### 2.3 DATA GATHERING
-![Data_gathering](assets/img/portfolio/capstone/data_gathering.png)
-<br><br>
-I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables.
-<br><br>
+
 ![google_sheets_tlb](assets/img/portfolio/capstone/google_sheets_tlbs.png)
 <br><br>
 After creating matching columns in all five tables: ```brand_id```, ```description```, ```colorway```, ```sales```, and ```discount``` in google sheets, I was able to aggregate the data using the ```=QUERY()``` function, however this method achieved only surface level organization. As a result I would need to use bigQuery/SQL to properly clean and analyze the data.
