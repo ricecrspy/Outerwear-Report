@@ -1,3 +1,5 @@
+# 2.4 DATA CLEANING AND MANIPULATION w/ SQL
+
 ```
 WITH descrip_tbl AS -- replace decription_id CTE
 (SELECT
