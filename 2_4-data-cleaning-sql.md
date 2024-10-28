@@ -1,6 +1,11 @@
-# 2.4 DATA CLEANING AND MANIPULATION w/ SQL
+# 2.4 DATA CLEANING AND MANIPULATION
+To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the brand_id key. I combined product_name with description into one description variable, resulting in a cleaned and aggregated dataset. However, to analyze product category frequencies, I needed to extract string-specific data from the description column.
 
-To prepare the data for analysis, I used BigQuery to join all tables into a single dataset under the brand_id key. I combined product_name with description into one description variable, resulting in a cleaned and aggregated dataset. However, to analyze product category frequencies, I needed to extract string-specific data from the description column. Therefore, I created two variables: style_id and sub_style_id, and extracted them from description using REGEXP_EXTRACT() and Common Table Expressions (CTE) for aggregation. The first variable represented broad apparel categories such as jackets, coats, tracks, vests, etc., while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See the SQL query below.
+## 2.4.1 SQL
+I created two variables: style_id and sub_style_id, and extracted them from description using REGEXP_EXTRACT() and Common Table Expressions (CTE) for aggregation. The first variable represented broad apparel categories such as jackets, coats, tracks, vests, etc., while the second variable identified specific properties such as materials or functions (e.g., down, shell, windstop, etc.). See the SQL query below.<BR></BR>
+
+           • Insight 1 description <br></br>
+           • Insight 2 Description <br></br>
 
 
 ```
@@ -55,3 +60,7 @@ FROM
 GROUP BY brand_id,description_id, style_id, sub_style_tbl.sub_style_id, price
 ORDER BY price DESC
 ```
+## 2.4.2 DATA INTERGRATION
+Below is the final dataset after the description variable was aggregated and the string data for ```style_id``` and ```sub_style_id``` were extracted. The dataset is now ready for analysis.
+<br><br>
+[IMAGE]
