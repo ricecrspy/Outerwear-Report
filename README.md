@@ -7,8 +7,8 @@ Berlin, a premium streetwear fashion brand, wants to expand by offering outerwea
 ### 1.1.2 DATA STRUCTURES
 
 I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables. <br></br>
-           • Learn about DATA GATHERING [here]() <br></br>
-           • learn about DATA CLEANING [here](data-cleaning-sql.md) <br></br>
+           • Learn about DATA GATHERING [here](data-gathering.md) <br></br>
+           • learn about DATA CLEANING [here](data-cleaning.md) <br></br>
 [IMAGE]
 
 ### 1.1.3 KEY PERFORMANCE INDICATORS (DASHBOARD)
