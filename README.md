@@ -4,12 +4,10 @@
 ### 1.1.1 ABOUT
 Berlin, a premium streetwear fashion brand, wants to expand by offering outerwear pieces in its collection. However, before launching the new product line, the company's President wants a high-level report analyzing current market trends and competitors. The Director of Marketing and Sales tasked me with performing market research and creating a report that highlights trends, market insights, and key recommendations using data analytics.
 
-### 1.1.2 DATA STRUCTURES
+### 1.1.2 DATA STRUCTURE
 
-I identified five e-commerce boutique stores that align with Berlin's market positioning in terms of price, product design, target customer, and quality. Using a Chrome browser web crawler extension, I scraped over 300 rows of data observations, about 30-70 rows from each website, based on the following variables: brand name, product description, colorway, price, discount, and sale price. Data structures varied from store to store, and as a result, a unique table was created for each, totaling five tables. <br></br>
-           • Learn about DATA GATHERING [here](data-gathering.md) <br></br>
-           • learn about DATA CLEANING [here](data-cleaning.md) <br></br>
-[IMAGE]
+![data-structure](assets/berlin-data-structure.png)
+Click to Learn about [data gathering](data-gathering.md) & [data cleaning](data-cleaning.md) process <br></br>
 
 ### 1.1.3 KEY PERFORMANCE INDICATORS (DASHBOARD)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.
