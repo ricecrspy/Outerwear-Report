@@ -12,7 +12,7 @@ Click to Learn about [data gathering](data-gathering.md) & [data cleaning](data-
 ### 1.1.3 KEY PERFORMANCE INDICATORS (DASHBOARD)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.
 <br></br>
-![berlin-dashboard](assets/berlin-dashboard.png)
+![berlin-dashboard](assets/berlin-dashboard-bw.png)
 <br></br>
 See fully interactive dashboard [here]()
 ### 1.1.4 MARKET SEGMENTATION
