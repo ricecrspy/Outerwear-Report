@@ -18,11 +18,12 @@ See fully interactive dashboard [here]()
 ### 1.1.4 MARKET SEGMENTATION
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.<br></br>
-           • Insight 1 Description <br></br>
-           • Insight 2 Description <br></br>
+      ```• Insight 1 Description <br></br>```
 ![berlin-mkt-seg-1](assets/berlin-mkt-seg-bw.png)
+<br></br>
+      ```• Insight 2 Description <br></br>```
 ![berlin-mkt-seg-2](assets/berlin-mkt-seg-barchart.png)
-
+      ```• Insight 3 Description <br></br>```
 
 ### 1.1.5 PRODUCT COMPARISION
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.<br></br>
