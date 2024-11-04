@@ -29,6 +29,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpi
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.<br></br>
            • Insight 1 Description <br></br>
            • Insight 2 Description <br></br>
+![berlin-product-seg](assets/berlin-product-seg.png)
 
 ### 1.1.6 BRAND COMPARISION
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate turpis non tristique rhoncus. Sed facilisis, nibh ac egestas tincidunt, orci massa hendrerit nisl, quis mollis lectus metus non dui. Aenean imperdiet magna in neque consectetur mattis. Integer faucibus tempor egestas. Duis ullamcorper eget nisl id malesuada. Quisque pulvinar justo vel rhoncus placerat. Curabitur ultricies facilisis ex semper ultrices. Vivamus vel dui vitae erat iaculis ultricies eu vel augue. Aliquam vel augue interdum, dignissim nisl at, tempor velit.<br></br>
